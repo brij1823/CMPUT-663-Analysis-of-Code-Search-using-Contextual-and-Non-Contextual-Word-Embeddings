@@ -18,8 +18,14 @@ pip install requirements.txt
 2. Downloading the CodeSearchNet dataset, we have provided the dataset we have used in python folder, but to clone the latest repository please run the following command in CLI
 ```
 #Downloading the dataset
-! wget https://s3.amazonaws.com/code-search-net/CodeSearchNet/v2/python.zip
-! unzip python.zip
+
+wget https://s3.amazonaws.com/code-search-net/CodeSearchNet/v2/python.zip
+unzip python.zip
+
+```
+3. Execute Word2Vec Jupyter python notebook
+```
+python Word2Vec/Word2Vec_Main.ipynb
 ```
 
 ## Dataset
