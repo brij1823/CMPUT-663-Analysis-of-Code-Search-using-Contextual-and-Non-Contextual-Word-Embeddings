@@ -37,6 +37,9 @@ Here is the [link](https://github.com/github/CodeSearchNet) to official CodeSear
 
 The primary dataset consists of 2 million (comment, code) pairs from open source libraries. Concretely, a comment is a top-level function or method comment (e.g. [docstrings](https://en.wikipedia.org/wiki/Docstring) in Python), and code is an entire function or method. Currently, the dataset contains Python, Javascript, Ruby, Go, Java, and PHP code. Throughout this repo, we refer to the terms docstring and query interchangeably. We partition the data into train, validation, and test splits such that code from the same repository can only exist in one partition. Currently this is the only dataset on which we train our model. Summary statistics about this dataset can be found in this [notebook](https://github.com/github/CodeSearchNet/blob/master/notebooks/ExploreData.ipynb).
 For more information about how to obtain the data, see this [section](https://github.com/github/CodeSearchNet#data-details).
+
+Here is the dataframe snapshot of python filtered dataset of CodeSearchNET.
+![alt Dataframe Snapshot]https://github.com/brij1823/CMPUT-663-Analysis-of-Code-Search-using-Contextual-and-Non-Contextual-Word-Embeddings/blob/main/images/codesearchnet.png
 ## Methodology
 ## Evaluation
 ## Conclusion
