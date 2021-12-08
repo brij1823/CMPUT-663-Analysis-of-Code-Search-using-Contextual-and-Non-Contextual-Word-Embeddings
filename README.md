@@ -11,9 +11,15 @@ Millions of repetitive code snippets are submitted to code repositories every da
 
 ## Installation
 
-1. Step 1 : To install all the necessary python packages
+1. To install all the necessary python tools and packages, redirect to the folder containing requirements.txt
 ```
 pip install requirements.txt
+```
+2. Downloading the CodeSearchNet dataset, we have provided the dataset we have used in python folder, but to clone the latest repository please run the following command in CLI
+```
+#Downloading the dataset
+! wget https://s3.amazonaws.com/code-search-net/CodeSearchNet/v2/python.zip
+! unzip python.zip
 ```
 
 ## Dataset
