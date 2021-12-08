@@ -4,9 +4,13 @@ Millions of repetitive code snippets are submitted to code repositories every da
 
 ## Contents
 * [Installation](#Installation)
-* Dataset
-* Methodology
-* Evaluation
-* Conclusion
+* [Dataset](#Dataset)
+* [Methodology](#Methodology)
+* [Evaluation](#Evaluation)
+* [Conclusion](#Conclusion)
 
 # Installation
+# Dataset
+# Methodology
+# Evaluation
+# Conclusion
