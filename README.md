@@ -39,7 +39,8 @@ The primary dataset consists of 2 million (comment, code) pairs from open source
 For more information about how to obtain the data, see this [section](https://github.com/github/CodeSearchNet#data-details).
 
 Here is the dataframe snapshot of python filtered dataset of CodeSearchNET.
-![alt Dataframe Snapshot]https://github.com/brij1823/CMPUT-663-Analysis-of-Code-Search-using-Contextual-and-Non-Contextual-Word-Embeddings/blob/main/images/codesearchnet.png
+
+![alt Dataframe Snapshot](https://github.com/brij1823/CMPUT-663-Analysis-of-Code-Search-using-Contextual-and-Non-Contextual-Word-Embeddings/blob/main/images/codesearchnet.png)
 ## Methodology
 ## Evaluation
 ## Conclusion
