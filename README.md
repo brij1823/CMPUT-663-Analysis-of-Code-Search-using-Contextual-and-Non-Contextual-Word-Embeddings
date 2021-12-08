@@ -11,6 +11,10 @@ Millions of repetitive code snippets are submitted to code repositories every da
 
 ## Installation
 
+1. Step 1 : To install all the necessary python packages
+```
+pip install requirements.txt
+```
 
 ## Dataset
 ## Methodology
