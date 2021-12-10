@@ -75,7 +75,7 @@ To run the results conducted in experiment 1 for Word2Vec, run the following not
 ```
 python Word2Vec/Experiment1_10_word2vec.ipynb
 python Word2Vec/Experiment1_10_15_word2vec.ipynb
-python Word2Vec/Experiment1_20_word2vec.ipynb
+python Word2Vec/Experiment1_15_word2vec.ipynb
 ```
 For CodeBERT run,
 ```
