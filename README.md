@@ -36,7 +36,14 @@ python codebert notebooks/Generate_CodeBERT_embeddings.ipynb
 # Then run CodeSearch_w_CodeBERT.ipynb to run the experiments for Code Search and get results 
 python codebert notebooks/CodeSearch_w_CodeBERT.ipynb
 ```
-
+To replicate results of CodeBERT:
+1) Either generate embeddings or skip to step 4 and use the embeddings we generated.
+2) To generate embeddings yourself, go to 'codebert notebooks' folder and run 'Generate_CodeBERT_embeddings.ipynb'.
+3) Change the path of CodeSearchNet data according to your environment and follow the Generate_CodeBERT_embeddings.ipynb file to generate embeddings. Tensors of size 100 are generated and saved to the drive ( change this location to the location you want to store your tensors). These 100 length tensors are then read and saved as a one big tensor of all the embeddings of the dataset. This concatenated tensor will be used to implement code search. Generation of embeddings for 20,000 training examples takes around 5 hours.
+4) Use the embeddings given in folder 'CodeBERT_embeddings' and update the embedding paths in the 'CodeSearch_w_CodeBERT.ipynb' present in 'codebert notebooks' folder.
+5) For training code embeddings use 'CodeBERT_embeddings/train_embeddings/code_embds_20000.pt', for training docstring embeddings use 'CodeBERT_embeddings/train_embeddings/doc_embds_20000.pt'. Similary, in testing, use 'doc_embds_2000.pt' and 'code_embds_2000.pt'. For embeddings used in Experiment 3, use 'CodeBERT_embeddings/train_embeddings/code_doc_main.pt'
+6) Run the CodeSearch_w_CodeBERT.ipynb file without changing any other variable to replicate the results of Experiment 2 with 15000 training data
+7) To replicate results of Experiment 1 and other settings of Experiment 2, follow the instructions in CodeSearch_w_CodeBERT.ipynb and change the variables according to the experiment.
 ## Dataset
 Here is the [link](https://github.com/github/CodeSearchNet) to official CodeSearchNET github repository.
 
