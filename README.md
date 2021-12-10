@@ -10,6 +10,7 @@ Millions of repetitive code snippets are submitted to code repositories every da
 
 ## Installation and Results Replication
 
+### Installation
 1. To install all the necessary python tools and packages, redirect to the folder containing requirements.txt
 ```
 pip install requirements.txt
@@ -36,6 +37,8 @@ python codebert notebooks/Generate_CodeBERT_embeddings.ipynb
 # Then run CodeSearch_w_CodeBERT.ipynb to run the experiments for Code Search and get results 
 python codebert notebooks/CodeSearch_w_CodeBERT.ipynb
 ```
+
+### Replication
 To replicate results of CodeBERT:
 1) Either generate embeddings or skip to step 4 and use the embeddings we generated.
 2) To generate embeddings yourself, go to 'codebert notebooks' folder and run 'Generate_CodeBERT_embeddings.ipynb'.
