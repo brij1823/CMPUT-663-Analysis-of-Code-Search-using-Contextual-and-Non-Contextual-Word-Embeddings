@@ -99,6 +99,11 @@ python codebert_notebooks/Experiment2_15k_CodeBERT.ipynb
 ```
 ### Experiment 3:
 To run the results conducted in experiment 3 for Word2Vec, run the following notebook
+
+```
+python Word2Vec/Experiment3_word2vec.ipynb
+```
+For CodeBERT run,
 ```
 python codebert_notebooks/Experiment3_CodeBERT.ipynb
 ```
