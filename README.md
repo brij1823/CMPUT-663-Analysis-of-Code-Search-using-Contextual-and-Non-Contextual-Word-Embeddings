@@ -5,6 +5,7 @@ Millions of repetitive code snippets are submitted to code repositories every da
 ## Table of Contents
 * [Installation and Results Replication](#Installation)
 * [Dataset](#Dataset)
+* [Experiments] (#Experiments)
 
 
 ## Installation and Results Replication
@@ -45,3 +46,32 @@ For more information about how to obtain the data, see this [section](https://gi
 Here is the dataframe snapshot of python filtered dataset of CodeSearchNET.
 
 ![alt Dataframe Snapshot](https://github.com/brij1823/CMPUT-663-Analysis-of-Code-Search-using-Contextual-and-Non-Contextual-Word-Embeddings/blob/main/images/codesearchnet.png)
+
+
+## Experiments
+
+### Experiment 1:
+To run the results conducted in experiment 1 for Word2Vec, run the following notebook
+```
+python Word2Vec/Experiment1_10_word2vec.ipynb
+python Word2Vec/Experiment1_10_15_word2vec.ipynb
+python Word2Vec/Experiment1_20_word2vec.ipynb
+```
+
+### Experiment 2:
+To run the results conducted in experiment 2 for Word2Vec, run the following notebook
+```
+python Word2Vec/Word2Vec_Main.ipynb
+python Word2Vec/Experiment2_10k_word2vec.ipynb
+python Word2Vec/Experiment2_15k_word2vec.ipynb
+```
+
+### Experiment 3:
+To run the results conducted in experiment 3 for Word2Vec, run the following notebook
+```
+python Word2Vec/Experiment3_word2vec.ipynb
+```
+
+
+
+
