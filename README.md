@@ -29,7 +29,8 @@ python Word2Vec/Word2Vec_Main.ipynb
 ```
 4. Execute CodeBERT Jupyter python notebook
 ```
-ROHAN : EDIT THE PYTHON NOTEBOK FILE.
+python codebert notebooks/CodeSearch_w_CodeBERT.ipynb 
+python codebert notebooks/Generate_CodeBERT_embeddings.ipynb
 ```
 
 ## Dataset
