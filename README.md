@@ -3,13 +3,11 @@
 Millions of repetitive code snippets are submitted to code repositories every day. To search from these large codebases using simple natural language queries would allow programmers to prototype faster. This ability to search the code using natural language is called Code Search. Recent works in this area have majorly focused on analysing the quality of the code embedding models. In this work, we also analyse the efficiency  of these embedding models by comparing a contextual and non contextual word embeddings on which the code embedding models are formed. 
 
 ## Table of Contents
-* [Installation](#Installation)
+* [Installation and Results Replication](#Installation)
 * [Dataset](#Dataset)
-* [Methodology](#Methodology)
-* [Evaluation](#Evaluation)
-* [Conclusion](#Conclusion)
 
-## Installation
+
+## Installation and Results Replication
 
 1. To install all the necessary python tools and packages, redirect to the folder containing requirements.txt
 ```
@@ -25,12 +23,17 @@ unzip python.zip
 ```
 3. Execute Word2Vec Jupyter python notebook
 ```
+# The notebooks of Word2Vec and CodeBERT must be run by making necessary changes for different experiments.
 python Word2Vec/Word2Vec_Main.ipynb
 ```
 4. Execute CodeBERT Jupyter python notebook
 ```
-python codebert notebooks/CodeSearch_w_CodeBERT.ipynb 
-python codebert notebooks/Generate_CodeBERT_embeddings.ipynb
+
+# First run the Generate_CodeBERT_embeddings.ipynb to generate the embeddings from CodeBERT
+python codebert notebooks/Generate_CodeBERT_embeddings.ipynb 
+
+# Then run CodeSearch_w_CodeBERT.ipynb to run the experiments for Code Search and get results 
+python codebert notebooks/CodeSearch_w_CodeBERT.ipynb
 ```
 
 ## Dataset
@@ -42,8 +45,3 @@ For more information about how to obtain the data, see this [section](https://gi
 Here is the dataframe snapshot of python filtered dataset of CodeSearchNET.
 
 ![alt Dataframe Snapshot](https://github.com/brij1823/CMPUT-663-Analysis-of-Code-Search-using-Contextual-and-Non-Contextual-Word-Embeddings/blob/main/images/codesearchnet.png)
-## Methodology
-
-## Evaluation
-
-## Conclusion
