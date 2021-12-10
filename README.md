@@ -5,7 +5,7 @@ Millions of repetitive code snippets are submitted to code repositories every da
 ## Table of Contents
 * [Installation and Results Replication](#Installation)
 * [Dataset](#Dataset)
-* [Experiments] (#Experiments)
+* [Experiments](#Experiments)
 
 
 ## Installation and Results Replication
