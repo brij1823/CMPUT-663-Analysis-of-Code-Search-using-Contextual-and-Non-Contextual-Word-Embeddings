@@ -1,10 +1,10 @@
 # CMPUT-663-Analysis-of-Code-Search-using-Contextual-and-Non-Contextual-Word-Embeddings
 
 Millions of repetitive code snippets are submitted to code repositories every day. To search from these large codebases using simple natural language queries would allow programmers to prototype faster. This ability to search the code using natural language is called Code Search. Recent works in this area have majorly focused on analysing the quality of the code embedding models. In this work, we also analyse the efficiency  of these embedding models by comparing a contextual and non contextual word embeddings on which the code embedding models are formed. 
-
 ## Table of Contents
 * [Installation and Results Replication](#Installation)
-    * [InstallationSteps](#InstallationSteps) 
+    * [Setting up Docker Image](#InstallationusingDocker) 
+    * [Manual Installation](#ManualInstallation) 
     * [Replication](#Replication)
 * [Dataset](#Dataset)
 * [Experiments](#Experiments)
@@ -12,7 +12,13 @@ Millions of repetitive code snippets are submitted to code repositories every da
 
 ## Installation and Results Replication
 
-### InstallationSteps
+
+### Installation using Docker
+We have set up docker image to execute all the python files of CodeBERT and Word2Vec. Follow the below commands to run the docker
+```
+docker run dockerpython
+```
+### Manual Installation
 1. To install all the necessary python tools and packages, redirect to the folder containing requirements.txt
 ```
 pip install requirements.txt
