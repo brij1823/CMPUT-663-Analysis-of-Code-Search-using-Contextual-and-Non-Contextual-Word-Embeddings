@@ -4,7 +4,7 @@ Millions of repetitive code snippets are submitted to code repositories every da
 
 ## Table of Contents
 * [Installation and Results Replication](#Installation)
-    * [Installation Steps](Installation Steps) 
+    * [InstallationSteps](InstallationSteps) 
     * [Replication](Replication)
 * [Dataset](#Dataset)
 * [Experiments](#Experiments)
@@ -12,7 +12,7 @@ Millions of repetitive code snippets are submitted to code repositories every da
 
 ## Installation and Results Replication
 
-### Installation Steps
+### InstallationSteps
 1. To install all the necessary python tools and packages, redirect to the folder containing requirements.txt
 ```
 pip install requirements.txt
